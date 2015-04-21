@@ -12,17 +12,10 @@ Project state: beta
 Get started!
 ------
 
-#### Add vagrant omunibus
+#### Add vagrant plugins
     $ xcode-select --install // install iconv if you use MacOS
     $ vagrant plugin install vagrant-omnibus
     $ vagrant plugin install vagrant-berkshelf
-
-#### Add precise64 boxes
-
-    $ vagrant box add precise64_12_04 http://files.vagrantup.com/precise64.box # for virtualbox provider
-    $ vagrant box add precise64_12_04 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
-    $ vagrant box add precise64_14_04 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
-    $ vagrant box add precise64_14_04 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vmwarefusion.box
 
 
 ##### Other boxes
@@ -56,11 +49,11 @@ Dependencies
 Documentation
 ------
 
-### Add a new server.
+### Adding servers.
 
 #### add server file.
 
-    $ cp servers/template.rb servers/{$filename}.rb
+    $ cp servers/api01.rb servers/{$filename}.rb
 
 #### Define vm.
 
