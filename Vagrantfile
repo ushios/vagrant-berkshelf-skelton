@@ -6,7 +6,7 @@ require 'pathname'
 ##
 # chef settings
 #
-$cookbooks_path = "cookbooks"
+$cookbooks_path = ["cookbooks", "site-cookbooks"]
 $roles_path = ["roles", "approles"]
 
 ##
