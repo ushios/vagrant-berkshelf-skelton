@@ -6,8 +6,8 @@ require 'pathname'
 ##
 # chef settings
 #
-$cookbooks_path = ["cookbooks", "site-cookbooks"]
-$roles_path = ["roles", "approles"]
+$cookbooks_path = ["cookbooks"]
+$roles_path = ["roles"]
 
 ##
 # import personal setting
